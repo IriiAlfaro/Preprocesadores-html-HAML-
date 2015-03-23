@@ -43,6 +43,47 @@ Tambien se puede usar poniendo una gema de “haml” en el cogido de Ruby y usa
 
 ### Texto sin formato
 Una parte importante de cualquier documento HTML es su contenido, que es texto sin formato. Cualquier línea de Haml que es interpretado como algo más, es tomado como texto sin formato, y pasan sin modificarse. Por ejemplo:
-    %gee
-    %whiz
-    Wow this is cool!
+    <pre>
+        %gee
+        %whiz
+        Wow this is cool!
+    </pre>
+Es completado como:
+    <pre>
+        <gee>
+        <whiz>
+        Wow this is cool!
+        </whiz>
+        </gee>
+    </pre>
+Si uno no quiere que lo uno escriba se convierta en formato Haml uno debe de hacer, por ejemplo:
+    <pre>
+        %p
+          <div id="blah">Blah!</div>
+      </pre>
+Se vería como:
+    <pre>
+        <p>
+        <div id="blah">Blah!</div>
+        </p>
+    </pre>
+
+### Elementos HTML
+Nombre de un elemento: %
+El símbolo de porcentaje debe ponerse al inicio de la línea y es seguido inmediatamente por el nombre del elemento y se generara el tag de cierre de una vez. Por ejemplo:
+    <pre>
+        %one
+        %two
+        %three Hey there
+    </pre>
+Esto se vería como:
+    <pre>
+        <one>
+        <two>
+        <three>Hey there</three>
+        </two>
+        </one>
+    </pre>
+Cualquier valor que se ponga después del signo de porcentaje será tomado como nombre del elemento.
+
+### Atributos:
