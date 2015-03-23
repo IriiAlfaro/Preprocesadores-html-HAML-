@@ -36,4 +36,4 @@ Haml tambien puede usarse separado de Rails y ActionView. Para hacer eso, debemo
     gem install haml
 Tambien se puede usar poniendo una gema de “haml” en el cogido de Ruby y usando Haml::Engine:
     engine = Haml::Engine.new("%p Haml code!")
-    engine.render #=> "<p>Haml code!</p>\n"
+    <pre>engine.render #=> "<p>Haml code!</p>\n"</pre>
