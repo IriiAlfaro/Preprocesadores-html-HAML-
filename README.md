@@ -5,3 +5,7 @@ Haml es un markup lenguage que se utiliza para escribir el código HTML de cualq
 ### Principios básicos
 
 Haml se basa en varios principios fundamentales para lograr lo que quieren.  Estos son:
+
+    *-El markup debe ser hermoso
+      No debe utilizarse como una herramienta simple para navegadores para representar una página cómo el desarrollador quiere        que se vea. La representación no es lo único que la gente tiene que ver; tienen que ver, modificar y comprender como es el        markup.
+
