@@ -40,3 +40,9 @@ Tambien se puede usar poniendo una gema de “haml” en el cogido de Ruby y usa
         engine = Haml::Engine.new("%p Haml code!")
         engine.render #=> "<p>Haml code!</p>\n
     </pre>
+
+### Texto sin formato
+Una parte importante de cualquier documento HTML es su contenido, que es texto sin formato. Cualquier línea de Haml que es interpretado como algo más, es tomado como texto sin formato, y pasan sin modificarse. Por ejemplo:
+    %gee
+    %whiz
+    Wow this is cool!
