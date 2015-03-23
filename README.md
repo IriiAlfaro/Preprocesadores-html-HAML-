@@ -33,7 +33,10 @@ Acá hay un tutorial de como empezar con HAML y como pasar de ERB a HAML: http:/
 
 ### Ruby Module
 Haml tambien puede usarse separado de Rails y ActionView. Para hacer eso, debemos de instalar la gema de Ruby:
-    gem install haml
+    <pre>gem install haml</pre>
 Tambien se puede usar poniendo una gema de “haml” en el cogido de Ruby y usando Haml::Engine:
-    engine = Haml::Engine.new("%p Haml code!")
-    <pre>engine.render #=> "<p>Haml code!</p>\n"</pre>
+    
+    <pre>
+        engine = Haml::Engine.new("%p Haml code!")
+        engine.render #=> "<p>Haml code!</p>\n
+    </pre>
