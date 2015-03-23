@@ -16,3 +16,11 @@ Haml automáticamente cierra y pone las etiquetas como se debe
 XML y HTML son formatos basados en la idea de un documento estructurado. Esa estructura se refleja en su markup y asimismo debe ser reflejada en meta-marcado como lógica de Haml porque Haml se basa en la de elementos secundarios (child elements), esta estructura se conserva naturalmente, haciendo el documento mucho más fácil, más lógico y más simples de leer para el usuario.
 
 Acá hay un tutorial de como empezar con HAML y como pasar de ERB a HAML: http://haml.info/tutorial.html
+
+### Características
+
+1. Whitespace activo
+2. Markup bien formateado
+3. Sigue las convenciones CSS
+4. Integra código Ruby
+6. Implementa Rails templates con la extención .haml
