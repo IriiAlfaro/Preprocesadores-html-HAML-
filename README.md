@@ -19,8 +19,18 @@ Acá hay un tutorial de como empezar con HAML y como pasar de ERB a HAML: http:/
 
 ### Características
 
-1. Whitespace activo
-2. Markup bien formateado
-3. Sigue las convenciones CSS
-4. Integra código Ruby
-6. Implementa Rails templates con la extención .haml
+* Whitespace activo
+* Markup bien formateado
+* Sigue las convenciones CSS
+* Integra código Ruby
+* Implementa Rails templates con la extención .haml
+
+### Usar Haml:
+
+1. Como una herramienta de lineas de comando
+2. Como un plugin de Ruby on Rails
+3. Como un módulo independiente Rubí.
+
+### Ruby Module
+Haml tambien puede usarse separado de Rails y ActionView. Para hacer eso, debemos de instalar la gema de Ruby:
+    gem install haml
