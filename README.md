@@ -78,11 +78,11 @@ El símbolo de porcentaje debe ponerse al inicio de la línea y es seguido inmed
     </pre>
 Esto se vería como:
     <pre>
-        <one>
-        <two>
-        <three>Hey there</three>
-        </two>
-        </one>
+    <one>
+    <two>
+    <three>Hey there</three>
+    </two>
+    </one>
     </pre>
 Cualquier valor que se ponga después del signo de porcentaje será tomado como nombre del elemento.
 
