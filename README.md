@@ -509,6 +509,6 @@ Comienza por:
 [http://haml.info/docs/yardoc/](http://haml.info/docs/yardoc/)
 
 ##### Bibliografia:
-[http://haml.info](http://haml.info)
-[http://haml.info/docs.html](http://haml.info/docs.html)
-[http://haml.info/docs/yardoc/file.REFERENCE.html](http://haml.info/docs/yardoc/file.REFERENCE.html)
+>[http://haml.info](http://haml.info)
+>[http://haml.info/docs.html](http://haml.info/docs.html)
+>[http://haml.info/docs/yardoc/file.REFERENCE.html](http://haml.info/docs/yardoc/file.REFERENCE.html)
